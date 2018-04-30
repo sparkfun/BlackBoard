@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -46,18 +47,18 @@
 <layer number="50" name="ReferenceLS" color="12" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
-<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
-<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
 <layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -81,43 +82,43 @@
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="7" fill="1" visible="no" active="no"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
 <layer number="104" name="Name" color="7" fill="1" visible="no" active="no"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="no"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="no"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="no"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="no"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="no"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="no"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="no"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="no"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="no"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="no"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="no"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="no"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="no"/>
 <layer number="203" name="203bmp" color="4" fill="10" visible="no" active="no"/>
 <layer number="204" name="204bmp" color="5" fill="10" visible="no" active="no"/>
 <layer number="205" name="205bmp" color="6" fill="10" visible="no" active="no"/>
@@ -140,21 +141,21 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="no"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
 <plain>
@@ -14417,10 +14418,11 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -14502,19 +14504,19 @@ design rules under a new name.</description>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="0603" value="4.7k" x="27.94" y="38.862" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.829" y="38.1" size="0.4064" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" value="4.7k" x="25.908" y="38.735" size="0.4064" layer="27" font="vector"/>
 <attribute name="PROD_ID" value="RES-07857" x="27.94" y="38.862" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="4.7k" x="29.845" y="38.608" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="R2" library="SparkFun-Resistors" package="0603" value="10k" x="58.42" y="33.782" smashed="yes">
-<attribute name="PROD_ID" value="RES-00824" x="58.42" y="33.782" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="10k" x="58.42" y="33.782" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="58.42" y="34.544" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-00824" x="58.42" y="33.782" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="60.833" y="34.036" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="VALUE" value="10k" x="58.42" y="33.782" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R3" library="SparkFun-Resistors" package="0603" value="10k" x="27.94" y="27.305" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.829" y="26.543" size="0.4064" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" value="10k" x="29.464" y="27.178" size="0.4064" layer="27" font="vector"/>
 <attribute name="PROD_ID" value="RES-00824" x="27.94" y="27.305" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="10k" x="29.464" y="27.178" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="C2" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="35.56" y="23.17" rot="R270">
 <attribute name="PROD_ID" value="CAP-00810" x="35.56" y="23.17" size="1.778" layer="27" rot="R270" display="off"/>
@@ -14526,8 +14528,8 @@ design rules under a new name.</description>
 </element>
 <element name="C4" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="10.16" y="26.162" smashed="yes">
 <attribute name="NAME" x="9.271" y="26.924" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" value="0.1uF" x="11.811" y="26.035" size="0.4064" layer="27" font="vector"/>
 <attribute name="PROD_ID" value="CAP-00810" x="10.16" y="26.162" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="0.1uF" x="11.811" y="26.035" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="C5" library="SparkFun-Capacitors" package="PANASONIC_D" value="47uF" x="21.59" y="5.842" rot="R90">
 <attribute name="PROD_ID" value="CAP-08478" x="21.59" y="5.842" size="1.778" layer="27" rot="R90" display="off"/>
@@ -14539,13 +14541,13 @@ design rules under a new name.</description>
 </element>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="1A/60V/500mΩ" x="6.35" y="26.924" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.128" y="27.7495" size="0.4064" layer="25" rot="R270"/>
-<attribute name="VALUE" value="1A/60V/500mΩ" x="4.826" y="24.892" size="0.4064" layer="27" rot="R90"/>
 <attribute name="PROD_ID" value="TRANS-08285" x="6.35" y="26.924" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="1A/60V/500mΩ" x="4.826" y="24.892" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="C8" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="27.94" y="29.337" smashed="yes">
 <attribute name="NAME" x="27.051" y="30.099" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" value="0.1uF" x="29.464" y="29.083" size="0.4064" layer="27" font="vector"/>
 <attribute name="PROD_ID" value="CAP-00810" x="27.94" y="29.337" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="0.1uF" x="29.464" y="29.083" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="C10" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="2.54" y="29.845" rot="R180">
 <attribute name="PROD_ID" value="CAP-00810" x="2.54" y="29.845" size="1.778" layer="27" rot="R180" display="off"/>
@@ -14556,13 +14558,13 @@ design rules under a new name.</description>
 </element>
 <element name="R14" library="SparkFun-Resistors" package="0603" value="715" x="13.335" y="17.272" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.224" y="16.51" size="0.4064" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" value="715" x="12.827" y="16.256" size="0.4064" layer="27" font="vector"/>
 <attribute name="PROD_ID" value="RES-07850" x="13.335" y="17.272" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="715" x="12.827" y="16.256" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="R15" library="SparkFun-Resistors" package="0603" value="240" x="13.335" y="19.812" smashed="yes">
 <attribute name="NAME" x="12.446" y="20.574" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" value="240" x="12.827" y="18.796" size="0.4064" layer="27" font="vector"/>
 <attribute name="PROD_ID" value="RES-07849" x="13.335" y="19.812" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="240" x="12.827" y="18.796" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="JP3" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="13.97" y="2.54"/>
 <element name="JP4" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="66.04" y="7.62"/>
@@ -14572,21 +14574,21 @@ design rules under a new name.</description>
 <element name="JP9" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="11.43" y="52.07"/>
 <element name="U$16" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="2.54" y="51.308" rot="MR0"/>
 <element name="C12" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="10.16" y="27.686" smashed="yes">
-<attribute name="PROD_ID" value="CAP-00810" x="10.16" y="27.686" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="0.1uF" x="10.16" y="27.686" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="10.16" y="28.448" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-00810" x="10.16" y="27.686" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="13.081" y="27.94" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="VALUE" value="0.1uF" x="10.16" y="27.686" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C15" library="SparkFun-Capacitors" package="EIA3216" value="10uF" x="10.668" y="29.845" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="CAP-00811" x="10.668" y="29.845" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="10uF" x="10.668" y="29.845" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.668" y="28.702" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-00811" x="10.668" y="29.845" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="14.605" y="29.464" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="VALUE" value="10uF" x="10.668" y="29.845" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="JP2" library="SparkFun-Connectors" package="1X10_SMD_COMBINED" value="M10SMD_COMBO" x="18.796" y="50.8" smashed="yes">
 <attribute name="NAME" x="18.796" y="53.721" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="20.193" y="50.038" size="1.27" layer="27"/>
 <attribute name="PROD_ID" value="CONN-11219" x="18.796" y="50.8" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="20.193" y="50.038" size="1.27" layer="27"/>
 </element>
 <element name="JP10" library="SparkFun-Connectors" package="1X08_SMD_COMBINED" value="" x="45.72" y="2.54" rot="R180">
 <attribute name="PROD_ID" value="CONN-10204" x="45.72" y="2.54" size="1.778" layer="27" rot="R180" display="off"/>
@@ -14601,10 +14603,10 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CONN-11415" x="64.77" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C6" library="SparkFun-Capacitors" package="EIA3216" value="10uF" x="20.32" y="22.352" smashed="yes">
-<attribute name="PROD_ID" value="CAP-00811" x="20.32" y="22.352" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="10uF" x="20.32" y="22.352" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.32" y="23.495" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-00811" x="20.32" y="22.352" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="16.51" y="22.606" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="VALUE" value="10uF" x="20.32" y="22.352" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP1" library="SparkFun-Connectors" package="PAD.03X.05" value="TP-3x5" x="66.04" y="30.48" rot="MR0"/>
 <element name="TP2" library="SparkFun-Connectors" package="PAD.03X.05" value="TP-3x5" x="66.04" y="27.94" rot="MR0"/>
@@ -14613,14 +14615,14 @@ design rules under a new name.</description>
 <element name="TP5" library="SparkFun-Passives" package="PAD.03X.05" value="TP-3x5" x="63.5" y="27.94" rot="MR0"/>
 <element name="TP6" library="SparkFun-Connectors" package="PAD.03X.05" value="TP-3x5" x="63.5" y="25.4" rot="MR0"/>
 <element name="LED2" library="SparkFun-LED" package="LED-1206-HIDDENSILK" value="GREEN" x="58.42" y="35.687" smashed="yes">
-<attribute name="PROD_ID" value="DIO-09910" x="58.42" y="35.687" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="58.42" y="36.6395" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-09910" x="58.42" y="35.687" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.293" y="37.211" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="LED1" library="SparkFun-LED" package="LED-1206-HIDDENSILK" value="Blue" x="27.94" y="40.767" smashed="yes">
-<attribute name="PROD_ID" value="DIO-09911" x="27.94" y="40.767" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27.94" y="41.7195" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="24.638" y="41.021" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-09911" x="27.94" y="40.767" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.369" y="41.021" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="S1" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-SMD" value="RESET" x="5.08" y="49.53" rot="R180">
 <attribute name="PROD_ID" value="SWCH-08247" x="5.08" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
@@ -14642,86 +14644,86 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CONN-08106" x="2.032" y="8.636" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q2" library="SparkFun-DiscreteSemi" package="SOT323" value="2N7002PW" x="59.436" y="16.51" smashed="yes" rot="R90">
-<attribute name="PROD_ID" value="TRANS-11151" x="54.356" y="12.7" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VALUE" value="310mA/60V/1.6Ω" x="59.436" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="59.436" y="15.24" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="TRANS-11151" x="54.356" y="12.7" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="59.436" y="17.78" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="VALUE" value="310mA/60V/1.6Ω" x="59.436" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R11" library="SparkFun-Resistors" package="0603" value="2.2k" x="59.436" y="19.05" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="RES-08272" x="59.436" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="2.2k" x="59.436" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="59.436" y="18.288" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="59.436" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="59.436" y="19.812" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="VALUE" value="2.2k" x="59.436" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R13" library="SparkFun-Resistors" package="0603" value="2.2k" x="59.436" y="13.97" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="RES-08272" x="59.436" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="2.2k" x="59.436" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="59.436" y="13.208" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="59.436" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="59.563" y="12.7" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="VALUE" value="2.2k" x="59.436" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U4" library="SparkFun-IC-Microcontroller" package="TQFP32-08" value="ATMEGA328P_TQFP" x="41.91" y="20.32" rot="R180">
 <attribute name="PROD_ID" value="IC-09069" x="41.91" y="20.32" size="0.889" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="U3" library="SparkFun-PowerIC" package="SOT23-5" value="AP2112-3.3V" x="20.32" y="17.78" smashed="yes" rot="R270">
-<attribute name="PROD_ID" value="VREG-12457" x="27.94" y="21.59" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="22.479" y="18.669" size="0.4064" layer="25" rot="R270"/>
+<attribute name="PROD_ID" value="VREG-12457" x="27.94" y="21.59" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="22.606" y="19.812" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C16" library="SparkFun-Capacitors" package="0603-CAP" value="1.0uF" x="20.32" y="20.32" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="CAP-00868" x="24.13" y="12.7" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="NAME" x="21.209" y="19.558" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="PROD_ID" value="CAP-00868" x="24.13" y="12.7" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="18.669" y="20.447" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="U2" library="SparkFun-DigitalIC" package="SO016" value="CH340G" x="10.16" y="39.37" rot="R90">
 <attribute name="PROD_ID" value="IC-13498" x="10.16" y="29.21" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="C7" library="SparkFun-Capacitors" package="0603" value="22pF" x="15.24" y="40.64" smashed="yes">
-<attribute name="PROD_ID" value="CAP-07876" x="15.24" y="50.8" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="NAME" x="15.24" y="41.402" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-07876" x="15.24" y="50.8" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="17.907" y="40.767" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="C11" library="SparkFun-Capacitors" package="0603" value="22pF" x="15.24" y="45.72" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="CAP-07876" x="21.59" y="39.37" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="NAME" x="15.24" y="44.958" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-07876" x="21.59" y="39.37" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="15.24" y="46.482" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="Y2" library="USB Basic" package="CRYSTAL-SMD-3.2X2.5" value="12MHz" x="15.24" y="43.18" smashed="yes" rot="R90">
-<attribute name="PROD_ID" value="XTAL-13518" x="19.05" y="36.83" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="NAME" x="13.843" y="41.529" size="0.4318" layer="25" rot="R90"/>
+<attribute name="PROD_ID" value="XTAL-13518" x="19.05" y="36.83" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="16.764" y="42.164" size="0.4318" layer="27" rot="R90" align="top-left"/>
 </element>
 <element name="C17" library="SparkFun-Capacitors" package="0603-CAP" value="10nF" x="15.24" y="38.735" smashed="yes">
-<attribute name="PROD_ID" value="CAP-00867" x="-7.62" y="37.465" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="NAME" x="14.351" y="39.497" size="0.4064" layer="25" font="vector"/>
+<attribute name="PROD_ID" value="CAP-00867" x="-7.62" y="37.465" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="16.764" y="38.608" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="D3" library="SparkFun-LED" package="LED-1206-HIDDENSILK" value="Yellow" x="27.94" y="33.02" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="DIO-09909" x="50.8" y="48.26" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="NAME" x="27.94" y="32.0675" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="24.003" y="32.639" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-09909" x="50.8" y="48.26" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" x="31.623" y="32.766" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="R12" library="SparkFun-Resistors" package="0603" value="4.7k" x="27.94" y="31.115" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="RES-07857" x="44.45" y="40.005" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="NAME" x="28.829" y="30.353" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="PROD_ID" value="RES-07857" x="44.45" y="40.005" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" value="4.7k" x="29.591" y="30.861" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="C18" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="10.16" y="33.02" smashed="yes">
-<attribute name="PROD_ID" value="CAP-00810" x="0" y="20.32" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="NAME" x="9.271" y="33.782" size="0.4064" layer="25" font="vector"/>
+<attribute name="PROD_ID" value="CAP-00810" x="0" y="20.32" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="11.684" y="32.893" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="R16" library="SparkFun-Resistors" package="0603" value="4.7k" x="27.94" y="34.925" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="RES-07857" x="50.8" y="51.435" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="NAME" x="28.829" y="34.163" size="0.4064" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" value="4.7k" x="26.035" y="35.179" size="0.4064" layer="27" font="vector" rot="R180"/>
+<attribute name="PROD_ID" value="RES-07857" x="50.8" y="51.435" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" value="4.7k" x="29.591" y="34.544" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="USB-MICROB-PTH" value="microB" x="2.54" y="39.37" rot="R270">
 <attribute name="PROD_ID" value="CONN-13711" x="2.54" y="39.37" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="LED5" library="SparkFun-LED" package="LED-1206-HIDDENSILK" value="GREEN" x="27.94" y="36.83" smashed="yes" rot="R180">
-<attribute name="PROD_ID" value="DIO-00862" x="27.94" y="36.83" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="NAME" x="27.94" y="35.8775" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="24.257" y="36.449" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-00862" x="27.94" y="36.83" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" x="31.623" y="36.576" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="I/O" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="" x="27.94" y="20.32"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-1.27" y="-35.56"/>
@@ -14730,18 +14732,18 @@ design rules under a new name.</description>
 <attribute name="VALUE" value="" x="63.5" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="Q3" library="SparkFun-DiscreteSemi" package="SOT323" value="2N7002PW" x="55.88" y="16.51" smashed="yes" rot="R270">
-<attribute name="PROD_ID" value="TRANS-11151" x="55.88" y="16.51" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="55.88" y="17.78" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="TRANS-11151" x="55.88" y="16.51" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="56.007" y="15.24" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" package="0603" value="2.2k" x="55.88" y="19.05" smashed="yes">
-<attribute name="PROD_ID" value="RES-08272" x="55.88" y="19.05" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="NAME" x="55.88" y="19.812" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="55.88" y="19.05" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="55.753" y="20.447" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="0603" value="2.2k" x="55.88" y="13.97" smashed="yes">
-<attribute name="PROD_ID" value="RES-08272" x="55.88" y="13.97" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="NAME" x="55.88" y="14.732" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="55.88" y="13.97" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="55.88" y="13.208" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="U$2" library="Labels-0_04" package="(QWIIC)" value="" x="61.849" y="13.716" rot="R90"/>
@@ -15664,269 +15666,10 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <errors>
-<approved hash="19,1,b4bb20028bfb96ad"/>
-<approved hash="19,1,2b8a5bdf7eb88702"/>
-<approved hash="5,1,8c84e274ffb3ad50"/>
-<approved hash="19,1,7e8ebee0bf1e7f70"/>
-<approved hash="19,1,5cb750d6b2bff530"/>
-<approved hash="19,1,bf895705f9f25a90"/>
-<approved hash="5,1,42858c75f5bbdb58"/>
-<approved hash="19,1,408f28e129164178"/>
-<approved hash="19,1,d9a421da12bee32c"/>
-<approved hash="19,1,ce95d204effefa83"/>
-<approved hash="5,1,5c85f67413b20d51"/>
-<approved hash="19,1,b481b26ab46ab281"/>
-<approved hash="19,1,725346d89e406d24"/>
-<approved hash="19,1,a99d79fa61fc7674"/>
-<approved hash="19,1,6d8909620f626b89"/>
-<approved hash="19,1,906b9c0643fb167e"/>
-<approved hash="19,1,97597fdffebc4fd2"/>
-<approved hash="5,1,1c859274f7b62d55"/>
-<approved hash="19,1,a679c092c692a079"/>
-<approved hash="19,1,284844db7abd0dc0"/>
-<approved hash="19,1,ab79230701ff926f"/>
-<approved hash="19,1,df6e1f851984d96f"/>
-<approved hash="5,1,8a84d4757db7a354"/>
-<approved hash="19,1,ba474e05fffe5252"/>
-<approved hash="19,1,457555dababff3fe"/>
-<approved hash="5,1,5c858e75c3b7dd54"/>
-<approved hash="19,1,1851f6baf0bb1e50"/>
-<approved hash="19,1,c553d504e9faf645"/>
-<approved hash="19,1,de622ade1ebee5ea"/>
-<approved hash="19,1,b147adacabacb747"/>
-<approved hash="5,1,6e85fc741db60f55"/>
-<approved hash="19,1,7311a3d85ebc779a"/>
-<approved hash="19,1,4c2378067bfcb636"/>
-<approved hash="5,1,9c84c275cfb49d57"/>
-<approved hash="19,1,4a3744dc42dc4c37"/>
-<approved hash="19,1,841f78dbc2b84590"/>
-<approved hash="19,1,97298f0249ff2a38"/>
-<approved hash="5,1,02859c74f5b22b51"/>
-<approved hash="19,1,a33fc3d4c5d4a53f"/>
-<approved hash="19,1,9babbdab35b5b845"/>
-<approved hash="19,1,d170f045f646d773"/>
-<approved hash="19,1,5eef83a183ae5ee0"/>
-<approved hash="19,1,e480b4eeb517e579"/>
-<approved hash="5,1,efd10f80f04281ff"/>
-<approved hash="19,1,8116d058d0468108"/>
-<approved hash="19,1,c09138ff3906c168"/>
-<approved hash="5,1,b9cd7d83ec4159e1"/>
-<approved hash="19,1,732384a27861b600"/>
-<approved hash="19,1,979893ac5989645d"/>
-<approved hash="19,1,743d1fa5666d0a1f"/>
-<approved hash="19,1,25bed4ca9a1b5c9d"/>
-<approved hash="19,1,0c8794a0e58e7a43"/>
-<approved hash="19,1,9c6b5f3a1150d5e4"/>
-<approved hash="19,1,3f1a0ff1c977fe79"/>
-<approved hash="19,1,99c0e09b9c93e5c8"/>
-<approved hash="19,1,a98c7da365b4f84a"/>
-<approved hash="19,1,9d34ba9fe46e8a14"/>
-<approved hash="19,1,1d5eda7e40f6e227"/>
-<approved hash="5,1,9265d485f355e1a4"/>
-<approved hash="19,1,5842df77d9485e7d"/>
-<approved hash="19,1,c27a74a474a0c27e"/>
-<approved hash="19,1,c6bdb6a3a18b9a78"/>
-<approved hash="19,1,5606d5a0866e4e25"/>
-<approved hash="19,1,43addc43d34b4ca5"/>
-<approved hash="19,1,0c729093f46084c2"/>
-<approved hash="19,1,8ee3c8b0a0c13d03"/>
-<approved hash="19,1,7ba867a10188146d"/>
-<approved hash="19,1,b05e31861ef88adc"/>
-<approved hash="19,1,dc15eb46b0ba9fe6"/>
-<approved hash="19,1,871368a3086cee30"/>
-<approved hash="19,1,51d00d6cdc7830ca"/>
-<approved hash="19,1,0cfac52c0ef8eac2"/>
-<approved hash="19,1,befa9a5df36ffa24"/>
-<approved hash="19,1,e1eb2243fab814fc"/>
-<approved hash="19,1,02a63401b40282a5"/>
-<approved hash="19,1,6609e50ec675d894"/>
-<approved hash="19,1,90d768a045896213"/>
-<approved hash="19,1,886d83a27e6daa4f"/>
-<approved hash="5,1,64501374d57ade1c"/>
-<approved hash="5,1,3db18cf176e4c406"/>
-<approved hash="19,1,5ab4da927e61047d"/>
-<approved hash="5,1,4d5877e23894bfcf"/>
-<approved hash="19,1,717f1ea16c690a5d"/>
-<approved hash="19,1,0dc591a4e58a7001"/>
-<approved hash="19,1,0f3d8739f9fc3a15"/>
-<approved hash="19,1,2cc74d894db72cf9"/>
-<approved hash="19,1,e768808cc9d6d5cb"/>
-<approved hash="19,1,9af21aa329b4e208"/>
-<approved hash="19,1,cddc1506fe345d23"/>
-<approved hash="19,1,fa76899ffe6ec66a"/>
-<approved hash="19,1,8c32e0d8d283f584"/>
-<approved hash="19,1,2deb5627cbe0fbfc"/>
-<approved hash="19,1,7d031c361a367b03"/>
-<approved hash="19,1,608e88e089266148"/>
-<approved hash="19,1,c93bb1d872b8c3b2"/>
-<approved hash="19,1,5e0bc202cffc9a1c"/>
-<approved hash="5,1,7c3ed9819443c017"/>
-<approved hash="19,1,7916690501f21601"/>
-<approved hash="19,1,3eafa361a36e3ea0"/>
-<approved hash="19,1,8c5d67a30660ea7e"/>
-<approved hash="19,1,74e66cad05881a23"/>
-<approved hash="19,1,d5275ff95ff6d528"/>
-<approved hash="19,1,622696d6febf0daf"/>
-<approved hash="19,1,1d03d9e8dfe71b0c"/>
-<approved hash="19,1,eb2bce1ec810ed25"/>
-<approved hash="19,1,86d58fdf9ebe6e5d"/>
-<approved hash="19,1,901575a4658979d1"/>
-<approved hash="19,1,61e48c0463fb77f2"/>
-<approved hash="19,1,94af82a264698b8d"/>
-<approved hash="5,1,8266d4857357d1a7"/>
-<approved hash="5,1,dc857274d7b48d56"/>
-<approved hash="19,1,8fb91dbd666d0f9b"/>
-<approved hash="19,1,7af2131b61fff3e4"/>
-<approved hash="19,1,6156f098f085614b"/>
-<approved hash="19,1,19c394db1aa16c4b"/>
-<approved hash="19,1,0f036ea0e1967bc7"/>
-<approved hash="19,1,8ade0c000c1d8ac3"/>
-<approved hash="19,1,f8d379e67ffafecf"/>
-<approved hash="19,1,0efb6e10680d08e6"/>
-<approved hash="19,1,0bfbbe01fffc33ef"/>
-<approved hash="19,1,feb0b0a7f86ecf90"/>
-<approved hash="19,1,a2081fa3218ce5ce"/>
-<approved hash="19,1,b4c8e5d8dabbf242"/>
-<approved hash="5,1,9265c085cf5591a4"/>
-<approved hash="5,1,9c85ce77c3b79d54"/>
-<approved hash="19,1,44a444a216ea640c"/>
-<approved hash="19,1,d93940a0458bd3fc"/>
-<approved hash="19,1,78f9fa27fa2578fb"/>
-<approved hash="19,1,54c9c506c9ff57de"/>
-<approved hash="19,1,937106bf06bd9373"/>
-<approved hash="19,1,a182cba0ce6daba1"/>
-<approved hash="19,1,cff9badbbebcc470"/>
-<approved hash="19,1,a659edc5069f599f"/>
-<approved hash="19,1,a74bef1d06135f85"/>
-<approved hash="19,1,a8fded61f9275747"/>
-<approved hash="19,1,aa7f7aea279cf8ed"/>
-<approved hash="19,1,7e64ced2845d3b0f"/>
-<approved hash="19,1,e0df7c347a35e6de"/>
-<approved hash="19,1,239322b9c7e03471"/>
-<approved hash="19,1,742449a10588e1e1"/>
-<approved hash="19,1,5dd46805fbfe17c3"/>
-<approved hash="19,1,62e4b3dafebff66d"/>
-<approved hash="19,1,a89f66a3fc6cebbc"/>
-<approved hash="5,1,5c86c2760fb7dd54"/>
-<approved hash="19,1,0b94891f93693c05"/>
-<approved hash="5,1,d2640c86c35551a4"/>
-<approved hash="19,1,a4f90731ebff59f7"/>
-<approved hash="19,1,a6850887e33da6c3"/>
-<approved hash="19,1,a6210623ede5597b"/>
-<approved hash="4,1,7afcc59cc59e7afe"/>
-<approved hash="4,1,765539f539f77657"/>
-<approved hash="4,1,61b22a522a5061b0"/>
-<approved hash="19,16,f80d6df96d1ef8ea"/>
-<approved hash="19,16,030d96f96f1efaea"/>
-<approved hash="19,16,f165649161f4f400"/>
-<approved hash="19,16,330e68fa9160ca94"/>
-<approved hash="19,16,c80e93fa9360c894"/>
-<approved hash="19,16,c1669a929f8ac47e"/>
-<approved hash="19,1,8b127ce67e6f899b"/>
-<approved hash="19,1,0b257cd17d620a96"/>
-<approved hash="19,1,d317a6e3a462d196"/>
-<approved hash="19,1,5320a6d4a76f529b"/>
-<approved hash="4,1,5efa3e91f7a01bf2"/>
-<approved hash="4,1,09e5e98e20b550e5"/>
-<approved hash="4,1,18d578beddbd81ee"/>
-<approved hash="4,1,b3c193ab168e36dd"/>
-<approved hash="4,1,cacd2aa64b936fc0"/>
-<approved hash="4,1,65b8c5d304e624b4"/>
-<approved hash="4,1,f4bbd4d031eb55a7"/>
-<approved hash="4,1,0f936ff8eafb8aa8"/>
-<approved hash="4,1,b18b11e048d17882"/>
-<approved hash="4,1,6176c11d04242876"/>
-<approved hash="4,1,fa61da0a3f295f79"/>
-<approved hash="4,1,1351733af2019652"/>
-<approved hash="4,1,ac5d8c372d024d51"/>
-<approved hash="4,1,bd491d2258177c44"/>
-<approved hash="4,1,e071c24160780670"/>
-<approved hash="4,1,1f4579747b449d4c"/>
-<approved hash="4,1,d65a2c6912513459"/>
-<approved hash="4,1,8dad5b9da55e4356"/>
-<approved hash="4,1,3cbe168ed4aaf2bd"/>
-<approved hash="4,1,ebb3cd836fb609be"/>
-<approved hash="4,1,228700b60682a08a"/>
-<approved hash="4,1,d9843fab198f3f87"/>
-<approved hash="4,1,88ef6adfa89c4e94"/>
-<approved hash="4,1,c7e021d0c3e8e5e3"/>
-<approved hash="4,1,4fcc29fcebff8df7"/>
-<approved hash="4,1,86c1dcf002c824c0"/>
-<approved hash="4,1,bdd48be495d533dd"/>
-<approved hash="4,1,ed29c7194521e328"/>
-<approved hash="4,1,9a3efc0e5e2e7825"/>
-<approved hash="4,1,530e313ef705910d"/>
-<approved hash="4,1,8803ee3208062e0e"/>
-<approved hash="4,1,b9169b2699133f1b"/>
-<approved hash="4,1,70d03b703b7270d2"/>
-<approved hash="4,1,6c492fe92feb6c4b"/>
-<approved hash="4,1,857bc71bc7198579"/>
-<approved hash="7,39,e0ce599bb9f1f882"/>
-<approved hash="7,39,0dec001400c10d39"/>
-<approved hash="7,39,e0cc2e9acef0f89c"/>
-<approved hash="7,39,8dc8003000158ded"/>
-<approved hash="7,39,6026d94ff93e383a"/>
-<approved hash="7,39,bee8ffe3b0068960"/>
-<approved hash="7,39,be607f1f70a949f0"/>
-<approved hash="7,39,6024d04cf03f3838"/>
-<approved hash="7,39,bee6f6ecb90b896e"/>
-<approved hash="7,39,8d8c007400038dfb"/>
-<approved hash="7,39,e03d538133ca7853"/>
-<approved hash="7,39,be977541fa96c965"/>
-<approved hash="7,39,6064aeaa0ea7b81c"/>
-<approved hash="7,39,beea881547df0955"/>
-<approved hash="7,39,be62081e07a849ee"/>
-<approved hash="7,39,428c0474040342fb"/>
-<approved hash="7,39,c2ec041404c1c239"/>
-<approved hash="7,39,42c80430041542ed"/>
-<approved hash="7,39,e1fd734530ac5a33"/>
-<approved hash="7,39,cecc14341426cede"/>
-<approved hash="7,39,b87752e17fd06d61"/>
-<approved hash="7,39,6664f32970a89d98"/>
-<approved hash="7,39,bfd6d296bfecaad1"/>
-<approved hash="7,39,0dcc003400260dde"/>
-<approved hash="19,1,dd1dad69a198d1ec"/>
-<approved hash="19,1,5626a652a4dc54a8"/>
-<approved hash="19,1,9b1017641b9e97ea"/>
-<approved hash="19,1,102b1c5f1eda12ae"/>
-<approved hash="19,1,ab7bec35008b5475"/>
-<approved hash="19,1,ad33e82900535271"/>
-<approved hash="19,1,a435e011097755f7"/>
-<approved hash="19,1,a3cd0d49e60b5fb7"/>
-<approved hash="19,1,abf5044fe18d5693"/>
-<approved hash="19,1,a7d10b01e00f5f6f"/>
-<approved hash="19,16,f51560e16d86f872"/>
-<approved hash="19,16,fdfd68096c0cf9f8"/>
-<approved hash="19,16,ff5d6aa96800fdf4"/>
-<approved hash="19,16,cf5e94aa967ecd8a"/>
-<approved hash="19,16,cdfe960a9272c986"/>
-<approved hash="19,16,c5169ee293f8c80c"/>
 <approved hash="3,1,9cb680084edd830d"/>
 <approved hash="3,1,9428206420e194ad"/>
-<approved hash="2,20,b53e2f8618fa6e2a"/>
-<approved hash="2,20,87d007ab68604589"/>
-<approved hash="2,20,b02db932ecfcaa41"/>
-<approved hash="2,20,f417151fd11bdeab"/>
-<approved hash="2,20,ee2117480f15c34e"/>
-<approved hash="2,20,aca3dc246ae5d578"/>
-<approved hash="2,20,1ebff9c8245aef71"/>
-<approved hash="2,20,00a6f9c8de75a429"/>
-<approved hash="2,20,2328b947519be1fa"/>
-<approved hash="2,20,3e93bee8f1c71928"/>
-<approved hash="2,20,15d9bee9fcebd7c0"/>
-<approved hash="2,20,07faf8f42f97a022"/>
-<approved hash="2,20,cc90924d5e78e21c"/>
-<approved hash="2,20,5f61fad4e702ec58"/>
 <approved hash="2,20,f20903c9d42ddd4b"/>
-<approved hash="2,20,b72e97a55e409fa6"/>
-<approved hash="2,20,5ea583529d68ee1c"/>
 <approved hash="2,20,8e1379bbae8fa1e1"/>
-<approved hash="2,20,ca2b98c2c67dd790"/>
-<approved hash="2,20,992d2ba462a32614"/>
-<approved hash="2,20,b689e258bc5ba876"/>
-<approved hash="2,20,e20f2da4625f5bf6"/>
-<approved hash="2,20,befab20452de2049"/>
-<approved hash="2,20,c110c82228405ceb"/>
 <approved hash="4,1,9f19ff6456247a61"/>
 <approved hash="4,1,c806287bc130f176"/>
 <approved hash="4,1,d936b94b7c38207d"/>
@@ -15959,57 +15702,9 @@ design rules under a new name.</description>
 <approved hash="4,1,f374916eb725d107"/>
 <approved hash="4,1,68794e6248266e04"/>
 <approved hash="4,1,196cfb76d9337f11"/>
-<approved hash="4,1,721bb155b5d87696"/>
-<approved hash="4,1,6a20216e25066e48"/>
-<approved hash="4,1,8a19b157b5d88e96"/>
-<approved hash="4,1,1220316e3503164d"/>
-<approved hash="19,1,8745cbbd277ae675"/>
-<approved hash="19,1,3ad7888de899d734"/>
-<approved hash="19,1,ebf176e6314f5617"/>
-<approved hash="19,1,1340c097d54f24e8"/>
-<approved hash="19,1,22b3ce4bcf63239b"/>
-<approved hash="19,1,110b0b710d71170b"/>
-<approved hash="19,1,bb0efbdd8d0df26c"/>
-<approved hash="19,1,2174c4a2b471abe8"/>
-<approved hash="19,1,73c502362be6ac6c"/>
-<approved hash="19,1,8b30012c2aa852df"/>
-<approved hash="19,1,67aa05142ec8bb81"/>
-<approved hash="19,1,1fc55ed35123e64c"/>
-<approved hash="19,1,043e5a615b99f231"/>
-<approved hash="19,1,e9685cb55e351983"/>
 <approved hash="4,1,a4bba75ba759a4b9"/>
 <approved hash="4,1,51105b305b325112"/>
 <approved hash="4,1,4d894fa94fab4d8b"/>
-<approved hash="4,16,c596db54ddcbc309"/>
-<approved hash="4,16,3d968bd48d4d3b0f"/>
-<approved hash="4,16,0b97f955ffc20d00"/>
-<approved hash="4,16,0f96d254d4c60904"/>
-<approved hash="4,16,c712d9d0dd99c35b"/>
-<approved hash="4,16,43135dd1599f475d"/>
-<approved hash="4,16,791d4b5f4f827dc0"/>
-<approved hash="4,16,0d0050c2540109c3"/>
-<approved hash="4,16,721bb155b0d87396"/>
-<approved hash="4,16,6aec21a2209a6bd4"/>
-<approved hash="4,16,8a09b147b0b88bf6"/>
-<approved hash="4,16,12ec31a2309f13d1"/>
-<approved hash="4,16,721bb155b5d87696"/>
-<approved hash="4,16,6a20216e25066e48"/>
-<approved hash="4,16,8a19b157b5d88e96"/>
-<approved hash="4,16,1220316e3503164d"/>
-<approved hash="4,16,8ff0296826659f33"/>
-<approved hash="4,16,97f14357441090b6"/>
-<approved hash="4,16,8ff0296826659f33"/>
-<approved hash="4,16,97f14357441090b6"/>
-<approved hash="4,16,8ff0296826659f33"/>
-<approved hash="4,16,97f14357441090b6"/>
-<approved hash="4,16,8ff0296826659f33"/>
-<approved hash="4,16,97f14357441090b6"/>
-<approved hash="19,16,ee5e6e666c20ec18"/>
-<approved hash="19,16,e6f466cc68eae8d2"/>
-<approved hash="19,16,ecfa6cc26becebd4"/>
-<approved hash="19,16,c6ff36c731e0c1d8"/>
-<approved hash="19,16,ccf13cc932e6c2de"/>
-<approved hash="19,16,c45b3463362cc614"/>
 </errors>
 </board>
 </drawing>
