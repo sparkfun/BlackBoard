@@ -32747,10 +32747,10 @@ Used as a test point connection for pogo pins or other debugging tools.
 <text x="-1.778" y="-5.08" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 <package name="USB-SOLDER-PADS">
-<smd name="D-" x="0" y="0.635" dx="3" dy="0.9" layer="1" cream="no"/>
-<smd name="VBUS" x="0" y="1.905" dx="3" dy="0.9" layer="1" cream="no"/>
-<smd name="D+" x="0" y="-0.635" dx="3" dy="0.9" layer="1" cream="no"/>
-<smd name="GND" x="0" y="-1.905" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="D-" x="0" y="0.889" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="VBUS" x="0" y="2.667" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="D+" x="0" y="-0.889" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="GND" x="0" y="-2.667" dx="3" dy="0.9" layer="1" cream="no"/>
 </package>
 <package name="JST04_1MM_RA_STRESSRELIEF">
 <description>Qwiic connector with milled cutout. Sliding the cable into this slot prevents the cable from coming unplugged.</description>
@@ -35927,7 +35927,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technology>
 </technologies>
 </device>
-<device name="_HALF-AMP" package="1206">
+<device name="_6V500MA-2" package="1206">
 <connects>
 <connect gate="F1" pin="1" pad="1"/>
 <connect gate="F1" pin="2" pad="2"/>
@@ -35939,7 +35939,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technology>
 </technologies>
 </device>
-<device name="_THREE-QUARTER-AMP" package="1206">
+<device name="_0.75A" package="1206">
 <connects>
 <connect gate="F1" pin="1" pad="1"/>
 <connect gate="F1" pin="2" pad="2"/>
@@ -35963,13 +35963,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technology>
 </technologies>
 </device>
-<device name="_2A" package="1210">
+<device name="_6V2A" package="1210">
 <connects>
 <connect gate="F1" pin="1" pad="1"/>
 <connect gate="F1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="RES-13714" constant="no"/>
+<attribute name="VALUE" value="6V/2A" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -38297,7 +38300,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="JP14" library="SparkFun-Connectors" deviceset="USB_SOLDER_PADS" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="JP12" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value=""/>
-<part name="F2" library="SparkFun-Fuses" deviceset="PPTC" device="_2A" value="6V_2A"/>
+<part name="F2" library="SparkFun-Fuses" deviceset="PPTC" device="_6V2A" value="6V/2A"/>
 </parts>
 <sheets>
 <sheet>
@@ -39271,7 +39274,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <pinref part="U4" gate="U1" pin="AREF"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="3.3V" class="1">
 <segment>
 <wire x1="129.54" y1="167.64" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="JP10" gate="G$1" pin="5"/>
