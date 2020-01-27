@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.1">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -32478,7 +32478,7 @@ Used as a test point connection for pogo pins or other debugging tools.
 &lt;/ul&gt;&lt;/p&gt;</description>
 <smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
 </package>
-<package name="1X04_1MM_RA">
+<package name="JST04_1MM_RA">
 <description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
@@ -32487,12 +32487,12 @@ Used as a test point connection for pogo pins or other debugging tools.
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
-<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
-<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
-<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
+<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.2032" layer="21"/>
+<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.2032" layer="21"/>
+<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.2032" layer="21"/>
+<circle x="-2.5" y="0.3" radius="0.1016" width="0.2032" layer="21"/>
 <smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
 <smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
 <smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
@@ -32501,30 +32501,6 @@ Used as a test point connection for pogo pins or other debugging tools.
 <smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
 <text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-<package name="1X04_1MM_RA_STRESSRELIEF">
-<description>Qwiic connector with milled cutout. Sliding the cable into this slot prevents the cable from coming unplugged.</description>
-<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
-<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
-<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
-<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
-<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<rectangle x1="-4" y1="-8" x2="4" y2="-6" layer="46"/>
-<rectangle x1="-4" y1="-10" x2="-2" y2="-8" layer="46"/>
-<wire x1="-2" y1="-10.16" x2="-2" y2="-8" width="0.3048" layer="20"/>
-<wire x1="-2" y1="-8" x2="4" y2="-8" width="0.3048" layer="20"/>
-<wire x1="4" y1="-8" x2="4" y2="-6" width="0.3048" layer="20"/>
-<wire x1="4" y1="-6" x2="-4" y2="-6" width="0.3048" layer="20"/>
-<wire x1="-4" y1="-6" x2="-4" y2="-10.16" width="0.3048" layer="20"/>
 </package>
 <package name="2X3">
 <description>&lt;h3&gt;Plated Through Hole - 2x3&lt;/h3&gt;
@@ -32771,10 +32747,34 @@ Used as a test point connection for pogo pins or other debugging tools.
 <text x="-1.778" y="-5.08" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 <package name="USB-SOLDER-PADS">
-<smd name="D-" x="0" y="0.635" dx="3" dy="0.9" layer="1"/>
-<smd name="VBUS" x="0" y="1.905" dx="3" dy="0.9" layer="1"/>
-<smd name="D+" x="0" y="-0.635" dx="3" dy="0.9" layer="1"/>
-<smd name="GND" x="0" y="-1.905" dx="3" dy="0.9" layer="1"/>
+<smd name="D-" x="0" y="0.889" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="VBUS" x="0" y="2.667" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="D+" x="0" y="-0.889" dx="3" dy="0.9" layer="1" cream="no"/>
+<smd name="GND" x="0" y="-2.667" dx="3" dy="0.9" layer="1" cream="no"/>
+</package>
+<package name="JST04_1MM_RA_STRESSRELIEF">
+<description>Qwiic connector with milled cutout. Sliding the cable into this slot prevents the cable from coming unplugged.</description>
+<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
+<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
+<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
+<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
+<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
+<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
+<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<rectangle x1="-4" y1="-8" x2="4" y2="-6" layer="46"/>
+<rectangle x1="-4" y1="-10" x2="-2" y2="-8" layer="46"/>
+<wire x1="-2" y1="-10.16" x2="-2" y2="-8" width="0.3048" layer="20"/>
+<wire x1="-2" y1="-8" x2="4" y2="-8" width="0.3048" layer="20"/>
+<wire x1="4" y1="-8" x2="4" y2="-6" width="0.3048" layer="20"/>
+<wire x1="4" y1="-6" x2="-4" y2="-6" width="0.3048" layer="20"/>
+<wire x1="-4" y1="-6" x2="-4" y2="-10.16" width="0.3048" layer="20"/>
 </package>
 </packages>
 <symbols>
@@ -33754,7 +33754,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <gate name="G$1" symbol="I2C_STANDARD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="JS-1MM" package="1X04_1MM_RA">
+<device name="JS-1MM" package="JST04_1MM_RA">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -33768,7 +33768,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </technology>
 </technologies>
 </device>
-<device name="SR" package="1X04_1MM_RA_STRESSRELIEF">
+<device name="SR" package="JST04_1MM_RA_STRESSRELIEF">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -34867,26 +34867,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="LED-0603">
-<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
-0603, surface mount.
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
-&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
-<smd name="C" x="0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
-<smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
-<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.127" layer="21"/>
-<wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
-</package>
 <package name="LED-1206-BOTTOM">
 <description>&lt;h3&gt;LED 1206 SMT&lt;/h3&gt;
 
@@ -34968,6 +34948,26 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="0.65375" y1="0.6825" x2="0.65375" y2="-0.6825" width="0.2032" layer="51"/>
 <wire x1="0.635" y1="0" x2="0.15875" y2="0.47625" width="0.2032" layer="51"/>
 <wire x1="0.635" y1="0" x2="0.15875" y2="-0.47625" width="0.2032" layer="51"/>
+</package>
+<package name="LED-0603">
+<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
+0603, surface mount.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
+&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
+<smd name="C" x="0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.2032" layer="21"/>
+<wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -35869,6 +35869,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
+<package name="1210">
+<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt; Footprint dimensions are combination from &lt;a href="http://www.vishay.com/docs/45017/vjw1bcsoldfootdesign.pdf"&gt;Vishay&lt;/a&gt; and &lt;a href="https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf"&gt;Bel&lt;/a&gt;</description>
+<wire x1="-1.625" y1="1.25" x2="1.625" y2="1.25" width="0.127" layer="51"/>
+<wire x1="1.625" y1="1.25" x2="1.6245" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="1.6245" y1="-1.25" x2="-1.625" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-1.625" y1="-1.25" x2="-1.625" y2="1.25" width="0.127" layer="51"/>
+<smd name="1" x="-1.5" y="0" dx="1" dy="2.8" layer="1"/>
+<smd name="2" x="1.5" y="0" dx="1" dy="2.8" layer="1"/>
+<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-2.215" y1="1.575" x2="2.215" y2="1.575" width="0.0508" layer="39"/>
+<wire x1="2.215" y1="1.575" x2="2.215" y2="-1.575" width="0.0508" layer="39"/>
+<wire x1="2.215" y1="-1.575" x2="-2.215" y2="-1.575" width="0.0508" layer="39"/>
+<wire x1="-2.215" y1="-1.575" x2="-2.215" y2="1.575" width="0.0508" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PPTC">
@@ -35911,7 +35927,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technology>
 </technologies>
 </device>
-<device name="_HALF-AMP" package="1206">
+<device name="_6V500MA-2" package="1206">
 <connects>
 <connect gate="F1" pin="1" pad="1"/>
 <connect gate="F1" pin="2" pad="2"/>
@@ -35923,7 +35939,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technology>
 </technologies>
 </device>
-<device name="_THREE-QUARTER-AMP" package="1206">
+<device name="_0.75A" package="1206">
 <connects>
 <connect gate="F1" pin="1" pad="1"/>
 <connect gate="F1" pin="2" pad="2"/>
@@ -35944,6 +35960,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="13945"/>
 <attribute name="VALUE" value="6V 0.5A"/>
+</technology>
+</technologies>
+</device>
+<device name="_6V2A" package="1210">
+<connects>
+<connect gate="F1" pin="1" pad="1"/>
+<connect gate="F1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-13714" constant="no"/>
+<attribute name="VALUE" value="6V/2A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -36643,6 +36671,71 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 <rectangle x1="0.3048" y1="-0.127" x2="0.7112" y2="0.127" layer="1"/>
 </package>
+<package name="SMT-JUMPER_2_NO_NO-SILK">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+<package name="SMT-JUMPER_2_NO_NO-SILK_ROUND">
+<smd name="1" x="-1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R270" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R90" stop="no" thermals="no" cream="no"/>
+<text x="0" y="1.9685" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.9685" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.00508125" layer="1">
+<vertex x="0.111125" y="-1.42875" curve="85"/>
+<vertex x="1.381125" y="0" curve="85"/>
+<vertex x="0.111125" y="1.42875"/>
+</polygon>
+<polygon width="0.00508125" layer="1">
+<vertex x="-0.111125" y="1.42875"/>
+<vertex x="-0.111125" y="-1.42875" curve="-85"/>
+<vertex x="-1.381125" y="0" curve="-85"/>
+</polygon>
+<polygon width="0.2032" layer="29">
+<vertex x="0" y="1.42875" curve="-90"/>
+<vertex x="1.42875" y="0" curve="-90"/>
+<vertex x="0" y="-1.42875" curve="-90"/>
+<vertex x="-1.42875" y="0" curve="-90"/>
+</polygon>
+</package>
+<package name="SMT-JUMPER_2_NO_SILK">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="1.016" x2="1.1176" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="0.762" x2="-0.8636" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="-0.762" x2="-0.8636" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.8636" y1="-1.016" x2="1.1176" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
+<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+<package name="SMT-JUMPER_2_NO_SILK_ROUND">
+<smd name="1" x="-1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R270" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="1.27" y="0" dx="0.3048" dy="0.1524" layer="1" roundness="20" rot="R90" stop="no" thermals="no" cream="no"/>
+<text x="0" y="1.9685" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.9685" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.00508125" layer="1">
+<vertex x="0.111125" y="-1.42875" curve="85"/>
+<vertex x="1.381125" y="0" curve="85"/>
+<vertex x="0.111125" y="1.42875"/>
+</polygon>
+<polygon width="0.00508125" layer="1">
+<vertex x="-0.111125" y="1.42875"/>
+<vertex x="-0.111125" y="-1.42875" curve="-85"/>
+<vertex x="-1.381125" y="0" curve="-85"/>
+</polygon>
+<polygon width="0.2032" layer="29">
+<vertex x="0" y="1.42875" curve="-90"/>
+<vertex x="1.42875" y="0" curve="-90"/>
+<vertex x="0" y="-1.42875" curve="-90"/>
+<vertex x="-1.42875" y="0" curve="-90"/>
+</polygon>
+<circle x="0" y="0" radius="1.74625" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SMT-JUMPER_3_1-NC_TRACE">
@@ -36673,6 +36766,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="SMT-JUMPER_2_NO">
+<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -36734,6 +36837,56 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technologies>
 </device>
 <device name="_SILK" package="SMT-JUMPER_2_NC_TRACE_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER-SMT_2_NO" prefix="JP">
+<description>&lt;h3&gt;Normally open jumper&lt;/h3&gt;
+&lt;p&gt;This jumper has two pads in close proximity to each other. Apply solder to close the connection.&lt;/p&gt;
+
+&lt;p&gt;Round pads are easier to solder for beginners, but are a lot larger.&lt;/p&gt;
+&lt;p&gt;SparkFun Product that uses the round pads:
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12781"&gt;SparkFun EL Sequencer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SMT-JUMPER_2_NO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_NO-SILK" package="SMT-JUMPER_2_NO_NO-SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_NO-SILK_ROUND" package="SMT-JUMPER_2_NO_NO-SILK_ROUND">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SILK" package="SMT-JUMPER_2_NO_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SILK_ROUND" package="SMT-JUMPER_2_NO_SILK_ROUND">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -37042,6 +37195,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="16" x="-4.445" y="2.8" dx="0.6" dy="1.2" layer="1"/>
 <text x="-3.81" y="0" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-1.27" size="0.6096" layer="27">&gt;VALUE</text>
+<circle x="-5.715" y="-2.54" radius="0.127" width="0.254" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -38003,7 +38157,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="power" width="0.1778" drill="0">
+<class number="1" name="power" width="0.762" drill="0">
 </class>
 </classes>
 <parts>
@@ -38080,7 +38234,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </part>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-SS14" value="1A/40V/500mV"/>
-<part name="F1" library="SparkFun-Fuses" deviceset="PPTC" device="_6V500MA" value="6V 0.5A"/>
 <part name="JP11" library="SparkFun-Connectors" deviceset="M08" device="SMD-COMBO" value="JP11">
 <attribute name="PROD_ID" value="CONN-10204"/>
 </part>
@@ -38146,6 +38299,8 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="JP14" library="SparkFun-Connectors" deviceset="USB_SOLDER_PADS" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="JP12" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value=""/>
+<part name="F2" library="SparkFun-Fuses" deviceset="PPTC" device="_6V2A" value="6V/2A"/>
 </parts>
 <sheets>
 <sheet>
@@ -38173,6 +38328,13 @@ jumper towards 3.3V.</text>
 <wire x1="142.24" y1="185.42" x2="142.24" y2="68.58" width="0.2032" layer="97" style="longdash"/>
 <text x="271.78" y="20.32" size="2.54" layer="97">Note: Cut QW1 and QW2 to disconnect 
 Qwiic and allow A4/A5 as analog inputs.</text>
+<text x="45.72" y="50.8" size="1.778" layer="97" font="vector">This is the penny-in-the-fuse jumper.
+Close only if you know what you're doing.</text>
+<text x="149.86" y="50.8" size="1.778" layer="97" font="vector">Trace width calculation:</text>
+<text x="152.4" y="40.64" size="1.778" layer="97" font="vector">2A, 1oz. copper
+10C rise in temperature
+30.8 mil width
+https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="40.64" y="76.2" smashed="yes">
@@ -38380,10 +38542,6 @@ Qwiic and allow A4/A5 as analog inputs.</text>
 <instance part="D1" gate="G$1" x="170.18" y="170.18" smashed="yes">
 <attribute name="NAME" x="172.72" y="170.6626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="172.72" y="167.8686" size="1.778" layer="96"/>
-</instance>
-<instance part="F1" gate="F1" x="53.34" y="33.02" smashed="yes">
-<attribute name="NAME" x="55.245" y="36.195" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="54.61" y="40.386" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="JP11" gate="G$1" x="134.62" y="114.3" smashed="yes" rot="R180">
 <attribute name="VALUE" x="138.684" y="108.966" size="1.778" layer="96" font="vector" rot="R90"/>
@@ -38595,6 +38753,13 @@ Qwiic and allow A4/A5 as analog inputs.</text>
 </instance>
 <instance part="GND17" gate="1" x="27.94" y="38.1" smashed="yes">
 <attribute name="VALUE" x="27.94" y="37.846" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="JP12" gate="G$1" x="53.34" y="45.72" smashed="yes">
+<attribute name="NAME" x="50.8" y="48.26" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="50.8" y="43.18" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="F2" gate="F1" x="53.34" y="33.02" smashed="yes">
+<attribute name="NAME" x="52.578" y="34.798" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -38833,7 +38998,7 @@ Qwiic and allow A4/A5 as analog inputs.</text>
 <label x="15.24" y="106.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="5V" class="1">
 <segment>
 <wire x1="172.72" y1="144.78" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="5V"/>
@@ -38868,14 +39033,10 @@ Qwiic and allow A4/A5 as analog inputs.</text>
 <junction x="223.52" y="170.18"/>
 </segment>
 <segment>
-<pinref part="JP10" gate="G$1" pin="7"/>
-<wire x1="129.54" y1="172.72" x2="127" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
-<wire x1="127" y1="172.72" x2="127" y2="177.8" width="0.1524" layer="91"/>
-<junction x="127" y="172.72"/>
 <pinref part="JP10" gate="G$1" pin="4"/>
 <wire x1="127" y1="165.1" x2="129.54" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="127" y1="165.1" x2="127" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="127" y1="165.1" x2="127" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="EN"/>
@@ -39113,7 +39274,7 @@ Qwiic and allow A4/A5 as analog inputs.</text>
 <pinref part="U4" gate="U1" pin="AREF"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="3.3V" class="1">
 <segment>
 <wire x1="129.54" y1="167.64" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="JP10" gate="G$1" pin="5"/>
@@ -39166,7 +39327,7 @@ Qwiic and allow A4/A5 as analog inputs.</text>
 <junction x="312.42" y="48.26"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="VIN" class="1">
 <segment>
 <wire x1="124.46" y1="157.48" x2="129.54" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="JP10" gate="G$1" pin="1"/>
@@ -39192,14 +39353,14 @@ Qwiic and allow A4/A5 as analog inputs.</text>
 <pinref part="LED2" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="PWRIN" class="0">
+<net name="PWRIN" class="1">
 <segment>
 <wire x1="165.1" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="J3" gate="G$1" pin="PWR"/>
 </segment>
 </net>
-<net name="USBVCC" class="0">
+<net name="USBVCC" class="1">
 <segment>
 <wire x1="187.96" y1="134.62" x2="187.96" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="137.16" x2="185.42" y2="137.16" width="0.1524" layer="91"/>
@@ -39207,7 +39368,6 @@ Qwiic and allow A4/A5 as analog inputs.</text>
 <label x="185.42" y="137.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="F1" gate="F1" pin="2"/>
 <pinref part="C15" gate="G$1" pin="+"/>
 <wire x1="60.96" y1="33.02" x2="63.5" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="33.02" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
@@ -39218,11 +39378,14 @@ Qwiic and allow A4/A5 as analog inputs.</text>
 <label x="71.12" y="33.02" size="1.27" layer="95" font="vector" xref="yes"/>
 <wire x1="68.58" y1="33.02" x2="71.12" y2="33.02" width="0.1524" layer="91"/>
 <junction x="68.58" y="33.02"/>
+<pinref part="JP12" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="45.72" x2="63.5" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="45.72" x2="63.5" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="F2" gate="F1" pin="2"/>
 </segment>
 </net>
-<net name="VUSB" class="0">
+<net name="VUSB" class="1">
 <segment>
-<pinref part="F1" gate="F1" pin="1"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="33.02" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="22.86" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
@@ -39234,6 +39397,10 @@ Qwiic and allow A4/A5 as analog inputs.</text>
 <wire x1="25.4" y1="50.8" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="50.8" x2="35.56" y2="33.02" width="0.1524" layer="91"/>
 <junction x="35.56" y="33.02"/>
+<pinref part="JP12" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="45.72" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="F2" gate="F1" pin="1"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -39395,6 +39562,11 @@ Qwiic and allow A4/A5 as analog inputs.</text>
 <wire x1="119.38" y1="63.5" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="SUPPLY22" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="JP10" gate="G$1" pin="7"/>
+<wire x1="129.54" y1="172.72" x2="119.38" y2="172.72" width="0.1524" layer="91"/>
+<label x="119.38" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SHLD" class="0">
